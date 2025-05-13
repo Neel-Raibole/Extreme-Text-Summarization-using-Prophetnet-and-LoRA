@@ -31,7 +31,7 @@ This approach is ideal for researchers and developers interested in experimentin
 ## Background to ProphetNet & LoRA
 
 ### ProphetNet: Sequence-to-Sequence Pretrained Model
-[ProphetNet]([https://arxiv.org/abs/2001.04063](https://arxiv.org/abs/2001.04063)) is a pre-trained encoder-decoder model developed by Microsoft, specifically designed for abstractive text generation tasks such as summarization and translation.
+[ProphetNet](https://arxiv.org/abs/2001.04063) is a pre-trained encoder-decoder model developed by Microsoft, specifically designed for abstractive text generation tasks such as summarization and translation.
 
 Key Characteristics:
 - **N-gram Prediction Objective**: Unlike traditional language models that predict only the next word, ProphetNet predicts multiple future tokens (n-gram prediction) during training. This encourages the model to learn better planning and coherence in its generation.
@@ -39,7 +39,7 @@ Key Characteristics:
 - **Strong Summarization Performance**: Achieved state-of-the-art ROUGE scores on multiple summarization benchmarks at the time of release.
 
 ### LoRA: Low-Rank Adaptation for Efficient Fine-Tuning
-[LoRA (Low-Rank Adaptation of Large Language Models)]([https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)) is a parameter-efficient fine-tuning method designed to adapt large pre-trained models with fewer trainable parameters.
+[LoRA (Low-Rank Adaptation of Large Language Models)](https://arxiv.org/abs/2106.09685) is a parameter-efficient fine-tuning method designed to adapt large pre-trained models with fewer trainable parameters.
 
 Core Concepts:
 - **Freezes Pretrained Weights**: Rather than updating all model parameters, LoRA injects trainable low-rank matrices into attention and feedforward layers.
